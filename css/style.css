@@ -1,0 +1,344 @@
+/*
+ * Droid Arabic Kufi (Arabic) https://www.google.com/fonts/earlyaccess
+ */
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }  
+  body {
+    direction: rtl;
+    font-family: 'Tajawal', sans-serif;
+    /* height:1000px; */
+    
+  }
+  .main-color{
+      color: #FC444C;
+  }
+  .main-2{
+      color: #3C74CC;
+  }
+  .main-bg{
+      background-color:#EAF0F2 ;
+  }
+.main-border{
+    border-radius: 10px;
+    border: 1px solid #3C74CC;
+    background-color: #fff;
+}
+.main-margin{
+    margin-top: 100px;
+}
+  
+  span {
+    display:block;
+    margin:20px;
+        font-size: 16px;
+      color: #1b1f20;
+  }
+ nav{
+    background-color:rgba(0,0,0,.4) ;}
+  
+  
+  .menu-list {
+   text-align: center;
+    margin-top: 10px;
+  }
+  
+  
+  
+  ul.menu-list > li{
+      display: inline-block;
+      margin-left: 45px;
+      line-height: 30px;
+      color:#fff !important;
+      font-size: 18px;
+      font-weight: bold;
+      position: relative;
+  }
+  
+  ul.menu-list > li a{
+      color:#fff;
+      transition: all 0.3s ease;
+        font-weight: bolder;
+      font-size: 20px;
+      text-decoration:none;
+  }
+  ul.menu-list> li a:hover{
+      color:#000;
+     
+  }
+  ul.menu-list> li i:hover{
+      color: #FC444C;
+  }
+  
+  .menu-list li ul.sub-menu{
+      display: none;
+      position:absolute;
+      margin:0;
+      padding:0;
+      width:155px;
+      z-index: 9999;
+      top: 36px;
+      list-style: none;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+  }
+  
+  .menu-list li:hover ul.sub-menu {
+      display: block;
+  }
+  
+  .menu-list li ul.sub-menu li {
+      border-bottom: 2px solid #1b1f20;
+      background-color:#ffcd23 ;
+  }
+  
+  .menu-list li ul.sub-menu li a{
+      width:100%;
+      color: #1b1f20;
+      padding:8px;
+      text-decoration: none;
+  }
+  .menu-list li ul.sub-menu li{
+      padding: 10px;
+      position: relative;
+  }
+  .menu-list li ul.sub-menu li a:hover{
+      color: #fff;
+      text-decoration: none;
+  }
+  
+  .menu-list li ul.sub-menu:before {
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #FFF;
+    content: "";
+    height: 0;
+    right: 20px;
+    position: absolute;
+    top: -6px;
+    width: 0;
+  }
+  
+  
+  
+  
+  
+   /* sub sub menu */
+  
+  .menu-list li ul.sub-menu li ul.sub-menu{
+      position: absolute;
+      left: 156px;
+      top: 22px;
+      display: none;
+  }
+  
+  
+  .menu-list li ul.sub-menu li:hover ul.sub-menu{
+      display: block;
+  }
+  
+  .menu-list li ul.sub-menu li ul.sub-menu:before{
+      display: none;
+  }
+  .fixed-nav-bar {
+    position: fixed;
+    top:0px;
+    left: 0;
+    z-index: 99;
+     width: 100%;}
+
+  .Home{
+      height: 100vh;
+      background-image: url("../Photos/Background.png");
+      background-size:cover ;
+      background-position: center;
+      position: relative;
+  }
+
+.home-content h1{
+font-size: 80px;
+}
+.home-content p{
+    font-size: 25px;
+}
+.home-content button{
+    border-right: none;
+}
+.end-home{
+    background-color: rgb(190, 67, 67);
+    text-align: center;
+    height:13%;
+    padding: 10px;
+    position: absolute;
+    bottom: 0; 
+}
+.end-home p{
+    padding:20px;
+    color: #fff;
+    font-size: 30px;
+   
+}
+.home-text{
+    margin-top: 70px;
+}
+.home-text h2{
+    font-size: 50px;
+}
+.home-text h5,h6{
+    font-size: 30px;
+}
+.home-text p{
+    font-size: 20px;
+}
+.home-icon i{
+    font-size: 100px;
+    color: #3C74CC;
+}
+.home-icon p{
+    font-size: 20px;
+}
+.Matrial{
+    background-color: #EAF0F2;
+}
+.matrial-card{
+
+    width: 50%;
+    color: #3C74CC;
+    border: 1px solid  ;
+    border-radius: 20px;
+    margin-top: 20px;
+    /* box-shadow: 1px 1px #888888; */
+}
+.matrial-between{
+    margin: auto;
+    width: 80%;
+    border-bottom: 5px dashed rgba(60, 116, 204,.5);
+    border-radius: 1px;
+}
+.matrial-three{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.matrial-three i{
+    
+    color:#3C74CC ;
+    font-size: 40px;
+}
+.matrial-three h4{
+    font-size: 25px;
+
+}
+.matrial-three p{
+    font-size: 20px;
+}
+.matrial-three:hover{
+    color: #fff;
+    background-color: #FC444C;
+    transition: background-color 1000ms ease;
+}
+.link{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color:rgba(60, 116, 204,.6);
+    color: #fff;
+}
+.support-text p{
+    font-size: 25px;
+}
+.color-link{
+    font-size: 40px;
+    font-weight: bold;
+    color: #3C74CC;
+}
+.support-item p{
+    font-size: 20px;
+}
+.support-between{
+    margin: auto;
+    width: 80%;
+    border-bottom: 5px dashed #FC444C;
+    border-radius: 1px;
+}
+.support-icon{
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.support-icon i{
+    color: rgb(60, 116, 204);
+    font-size: 30px;
+}
+.support-us{
+    background-color: #EAF0F2;
+}
+.who-pragraf h4{
+    font-size: 30px;
+}
+.who-pragraf p{
+    font-size: 25px;
+    margin-right:70px;
+}
+.contact{
+    width: 75%;
+    border: solid .5px #000;
+    border-radius: 10px;
+    box-shadow: #0095cb 0px 4px 4px, rgb(60, 116, 204) 0px 1px 1px, rgb(60, 116, 204) 0px 1px 1px;
+    margin: auto;
+
+}
+.conact-form{
+    width: 100%;
+    
+}
+.contact-logo{
+    /* border-right: #3C74CC 1px solid; */
+    /* box-shadow: rgb(60, 116, 204 ,0.15) .5px 0px .5px; */
+    box-shadow: #0095cb 25px 0px 20px -20px;
+    /* box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; */
+}
+.contact-logo i{
+    font-size: 16px;
+    color: #3C74CC;
+    background-color: #F2F2F2;
+    padding: 10px;
+    border-radius: 100%;
+    margin: 10px;
+    margin-right: 20px;
+}.contact-logo p{
+    font-size: 24px;
+}
+.btn-login{
+    background-color: #3C74CC;
+}
+.icon-img{
+    width: 15%;
+}
+.prog-matrial{
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 10px;
+}
+.prog-matrial p{
+    padding: 0 20px;
+}
+.prog-matrial i{
+    font-size: 30px;
+    padding: 10px;
+    color: #3C74CC;
+
+}
+.dectrion{
+    height: 2px;
+    background-color: #3C74CC;
+    width: 40%;
+    margin: 9px;
+}
+.footer-servec p{
+    font-size: 20px;
+}
+.footer-icon p{
+    font-size: 20px;
+}
